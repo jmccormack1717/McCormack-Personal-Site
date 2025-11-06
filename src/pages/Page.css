@@ -1,0 +1,339 @@
+.page {
+  min-height: calc(100vh - 80px);
+  padding: 4rem 0;
+  background-color: var(--bg-color);
+}
+
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.page-content {
+  background-color: var(--bg-color);
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: var(--shadow-md);
+}
+
+.page-content section {
+  margin-bottom: 3rem;
+}
+
+.page-content section:last-child {
+  margin-bottom: 0;
+}
+
+.page-content h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.page-content h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--text-color);
+}
+
+.page-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-light);
+  margin-bottom: 1rem;
+}
+
+.page-content .lead {
+  font-size: 1.25rem;
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+/* About Page Styles */
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-image-container {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  box-shadow: var(--shadow-md);
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text {
+  width: 100%;
+}
+
+.about-text p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: var(--text-color);
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Scholarship Page Styles */
+.scholarship-section {
+  margin-bottom: 2.5rem;
+}
+
+.research-areas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.research-card {
+  padding: 1.5rem;
+  background-color: var(--bg-light);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.research-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.research-card h3 {
+  margin-bottom: 0.75rem;
+  color: var(--primary-color);
+}
+
+.research-card p {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.publication-item {
+  padding: 1.5rem;
+  background-color: var(--bg-light);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+.publication-item h3 {
+  margin-bottom: 0.5rem;
+}
+
+.publication-meta {
+  font-style: italic;
+  color: var(--text-light);
+  margin-bottom: 0.5rem;
+}
+
+.publication-authors {
+  margin-bottom: 1rem;
+}
+
+.publication-link {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.publication-link:hover {
+  background-color: var(--primary-hover);
+  color: white;
+}
+
+.presentations-list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1.5rem;
+}
+
+.presentations-list li {
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  background-color: var(--bg-light);
+  border-radius: 8px;
+  border-left: 4px solid var(--primary-color);
+}
+
+/* Engineering Page Styles */
+.engineering-section {
+  margin-bottom: 2.5rem;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.project-card {
+  padding: 2rem;
+  background-color: var(--bg-light);
+  border-radius: 12px;
+  border: 1px solid var(--border-color);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.project-card h3 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.project-description {
+  flex: 1;
+  margin-bottom: 1.5rem;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.tech-tag {
+  padding: 0.4rem 0.8rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.project-link {
+  padding: 0.6rem 1.2rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease;
+}
+
+.project-link:hover {
+  background-color: var(--primary-hover);
+  color: white;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.skills-category {
+  padding: 1.5rem;
+  background-color: var(--bg-light);
+  border-radius: 8px;
+}
+
+.skills-category h3 {
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-item {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 0 1rem;
+  }
+
+  .page-content {
+    padding: 2rem 1.5rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .about-content {
+    gap: 2rem;
+  }
+
+  .about-image-container {
+    width: 200px;
+    height: 200px;
+  }
+
+  .about-text p {
+    font-size: 1rem;
+  }
+
+  .research-areas,
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+  }
+}
+
