@@ -17,7 +17,7 @@ function About() {
               James McCormack is a Software Engineer and AI/ML Researcher pursuing a double major in Mathematics and Computer Science at the University of Wisconsin–Eau Claire.
             </p>
             <p>
-              His research focuses on developing reliable and interpretable machine learning methods for healthcare and biomedical informatics, turning complex data into actionable insights for clinical and scientific decision-making.
+              His research focuses on developing reliable and interpretable machine learning methods for biomedical informatics, turning complex data into actionable insights for clinical and scientific decision-making.
             </p>
             <p>
             James's engineering expertise combines his AI/ML research background, experience across the software development lifecycle, and applied projects, making him capable of identifying, planning, and delivering end-to-end solutions. His work spans data pipelines and analysis, applied AI/ML, and full-stack system development.
