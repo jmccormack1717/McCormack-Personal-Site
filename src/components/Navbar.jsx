@@ -1,8 +1,10 @@
 import { Link, useLocation } from 'react-router-dom'
+import { useState, useEffect } from 'react'
 import './Navbar.css'
 
 function Navbar() {
   const location = useLocation()
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const isActive = (path) => {
     if (path === '/') {
@@ -11,35 +13,63 @@ function Navbar() {
     return location.pathname === path
   }
 
+  const closeMenu = () => setIsMenuOpen(false)
+
+  // Close menu on route change
+  useEffect(() => {
+    setIsMenuOpen(false)
+  }, [location.pathname])
+
   return (
     <nav className="navbar">
       <div className="navbar-container">
-        <Link to="/" className="navbar-logo">
-          McCormack
+        <Link to="/" className="navbar-logo" onClick={closeMenu}>
+          James McCormack
         </Link>
-        <ul className="navbar-menu">
+        <button
+          className={`mobile-menu-toggle ${isMenuOpen ? 'open' : ''}`}
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label="Toggle menu"
+        >
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <ul className={`navbar-menu ${isMenuOpen ? 'open' : ''}`}>
           <li>
             <Link
               to="/about"
               className={`navbar-link ${isActive('/about') ? 'active' : ''}`}
+              onClick={closeMenu}
             >
               About
             </Link>
           </li>
           <li>
             <Link
-              to="/scholarship"
-              className={`navbar-link ${isActive('/scholarship') ? 'active' : ''}`}
+              to="/experience"
+              className={`navbar-link ${isActive('/experience') ? 'active' : ''}`}
+              onClick={closeMenu}
             >
-              Scholarship
+              Experience
             </Link>
           </li>
           <li>
             <Link
-              to="/engineering"
-              className={`navbar-link ${isActive('/engineering') ? 'active' : ''}`}
+              to="/research"
+              className={`navbar-link ${isActive('/research') ? 'active' : ''}`}
+              onClick={closeMenu}
             >
-              Engineering
+              Research
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/education"
+              className={`navbar-link ${isActive('/education') ? 'active' : ''}`}
+              onClick={closeMenu}
+            >
+              Education
             </Link>
           </li>
         </ul>

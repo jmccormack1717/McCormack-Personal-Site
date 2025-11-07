@@ -1,21 +1,27 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
+import ScrollToTop from './components/ScrollToTop'
+import ScrollProgress from './components/ScrollProgress'
 import About from './pages/About'
-import Scholarship from './pages/Scholarship'
-import Engineering from './pages/Engineering'
+import Experience from './pages/Experience'
+import Research from './pages/Research'
+import Education from './pages/Education'
 import './App.css'
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <ScrollToTop />
+        <ScrollProgress />
         <Navbar />
         <main className="main-content">
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/about" element={<About />} />
-            <Route path="/scholarship" element={<Scholarship />} />
-            <Route path="/engineering" element={<Engineering />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/research" element={<Research />} />
+            <Route path="/education" element={<Education />} />
           </Routes>
         </main>
       </div>
