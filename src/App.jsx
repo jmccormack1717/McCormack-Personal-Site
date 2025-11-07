@@ -10,7 +10,7 @@ import './App.css'
 
 function App() {
   return (
-    <Router basename="/McCormack-Personal-Site">
+    <Router>
       <div className="App">
         <ScrollToTop />
         <ScrollProgress />
