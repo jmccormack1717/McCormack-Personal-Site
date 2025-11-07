@@ -42,9 +42,18 @@
           var decoded = l.search.slice(1).split('&').map(function(s) { 
             return s.replace(/~and~/g, '&')
           }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
+          // Ensure we maintain the base path for subdirectory deployments
+          var basePath = '/McCormack-Personal-Site';
+          var pathname = l.pathname;
+          if (pathname.startsWith(basePath)) {
+            window.history.replaceState(null, null,
+                basePath + decoded + l.hash
+            );
+          } else {
+            window.history.replaceState(null, null,
+                l.pathname.slice(0, -1) + decoded + l.hash
+            );
+          }
         }
       }(window.location))
     </script>

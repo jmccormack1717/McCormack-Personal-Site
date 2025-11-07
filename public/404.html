@@ -16,7 +16,7 @@
       // recognize it as a valid 404 page. Otherwise, the browser will show its
       // default 404 page.
       (function() {
-        var pathSegmentsToKeep = 0;
+        var pathSegmentsToKeep = 1; // Keep '/McCormack-Personal-Site' in the path
         var l = window.location;
         l.replace(
           l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
