@@ -7,8 +7,8 @@ function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const isActive = (path) => {
-    if (path === '/') {
-      return location.pathname === '/' || location.pathname === '/about'
+    if (path === '/about') {
+      return location.pathname === '/about' || location.pathname === '/'
     }
     return location.pathname === path
   }
