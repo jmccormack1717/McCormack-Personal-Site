@@ -34,15 +34,15 @@ function Research() {
               <div className="posters-list">
                 <div className="poster-item">
                   <p className="poster-title">A Deeper Look into Attributes for Diabetes Prediction</p>
-                  <p className="poster-meta">CERCA 2025</p>
+                  <p className="poster-meta">Poster • CERCA 2025</p>
                 </div>
                 <div className="poster-item">
                   <p className="poster-title">A Deeper Look into Attributes for Diabetes Prediction</p>
-                  <p className="poster-meta">NCUR 2025</p>
+                  <p className="poster-meta">Poster • NCUR 2025</p>
                 </div>
                 <div className="poster-item">
-                  <p className="poster-title">PowerPoint Presentation on Feature Importance Paper</p>
-                  <p className="poster-meta">ISSAT RQD 2025</p>
+                  <p className="poster-title">Integrating Socioeconomic Determinants with Medical Risk Factors for Diabetes</p>
+                  <p className="poster-meta">Talk • ISSAT RQD 2025</p>
                 </div>
               </div>
             </div>
