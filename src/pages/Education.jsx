@@ -9,14 +9,11 @@ function Education() {
             <h2>Academic Training</h2>
             <div className="education-list">
               <div className="education-item">
-                <div className="education-header">
-                  <h3>B.S. in Mathematics & Computer Science (Double Major)</h3>
+              <div className="education-header">
+                <h3>B.S. in Mathematics & Computer Science</h3>
                   <span className="education-date">Expected May 2027</span>
                 </div>
                 <div className="education-org">University of Wisconsin–Eau Claire</div>
-                <p className="education-details">
-                Pursued rigorous training in both theoretical and applied areas, combining applied mathematics with computer science to build a strong foundation for research and engineering.
-                </p>
               </div>
             </div>
           </section>
