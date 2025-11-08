@@ -15,7 +15,7 @@ function Education() {
                 </div>
                 <div className="education-org">University of Wisconsin–Eau Claire</div>
                 <p className="education-details">
-                Pursued rigorous training in both theoretical and applied areas, combining advanced mathematics with computer science to build a strong foundation for research and engineering.
+                Pursued rigorous training in both theoretical and applied areas, combining applied mathematics with computer science to build a strong foundation for research and engineering.
                 </p>
               </div>
             </div>
