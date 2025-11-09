@@ -1,12 +1,12 @@
 import './Page.css'
 
-function Education() {
+function Academic() {
   return (
     <div className="page">
       <div className="page-container">
         <div className="page-content">
           <section className="education-section">
-            <h2>Academic Training</h2>
+            <h2>Degree(s)</h2>
             <div className="education-list">
               <div className="education-item">
               <div className="education-header">
@@ -77,5 +77,6 @@ function Education() {
   )
 }
 
-export default Education
+export default Academic
+
 

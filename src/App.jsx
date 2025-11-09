@@ -5,7 +5,7 @@ import ScrollProgress from './components/ScrollProgress'
 import About from './pages/About'
 import Experience from './pages/Experience'
 import Research from './pages/Research'
-import Education from './pages/Education'
+import Academic from './pages/Academic'
 import './App.css'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/research" element={<Research />} />
-            <Route path="/education" element={<Education />} />
+            <Route path="/academic" element={<Academic />} />
           </Routes>
         </main>
       </div>

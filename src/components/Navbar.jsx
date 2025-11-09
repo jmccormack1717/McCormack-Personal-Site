@@ -65,11 +65,11 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/education"
-              className={`navbar-link ${isActive('/education') ? 'active' : ''}`}
+              to="/academic"
+              className={`navbar-link ${isActive('/academic') ? 'active' : ''}`}
               onClick={closeMenu}
             >
-              Education
+              Academic
             </Link>
           </li>
         </ul>
