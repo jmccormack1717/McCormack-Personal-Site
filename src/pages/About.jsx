@@ -14,16 +14,16 @@ function About() {
           </div>
           <div className="about-text">
             <p>
-              James McCormack is a Software Engineer and AI/ML Researcher pursuing a double major in Mathematics and Computer Science at the University of Wisconsin–Eau Claire.
+              James McCormack is a Software Engineer and AI/ML Researcher pursuing a double major in Mathematics and Computer Science at the University of Wisconsin–Eau Claire. Grounded in applied mathematics through both formal coursework and self-directed study, he tackles challenging problems across AI, data science, and software engineering.
             </p>
             <p>
-              His research focuses on developing reliable and interpretable machine learning methods for biomedical informatics, turning complex data into actionable insights for clinical and scientific decision-making.
+              His research focuses on developing reliable and interpretable machine learning methods for biomedical informatics, transforming complex data into actionable insights for clinical and scientific decision-making.
             </p>
             <p>
-            James's engineering expertise combines his experience in AI/ML research, professional software development, and self-directed projects, enabling him to design, plan, and deliver end-to-end solutions. His work spans data pipelines and analysis, applied AI/ML, and full-stack system development.
+            As an engineer, James combines his AI/ML research experience, professional software development, and self-directed projects, enabling him to design, plan, and deliver end-to-end solutions, or contribute effectively at any stage of technical execution.
             </p>
             <p>
-            Driven by opportunities to solve interesting problems, James values versatility in his work and enjoys wearing multiple hats. He thrives in interdisciplinary settings, contributing across domains and disciplines. He is always interested in collaborations that advance research or applied projects, including opportunities for graduate study.
+            Driven by intellectually stimulating and meaningful problems, he values versatility and enjoys contributing across disciplines. He welcomes collaborations on industry or applied projects and is actively seeking opportunities for graduate research in AI/ML and/or biomedical informatics.
             </p>
           </div>
           
