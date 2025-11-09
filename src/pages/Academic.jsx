@@ -6,7 +6,7 @@ function Academic() {
       <div className="page-container">
         <div className="page-content">
           <section className="education-section">
-            <h2>Degrees</h2>
+            <h2>Degree(s)</h2>
             <div className="education-list">
               <div className="education-item">
               <div className="education-header">
