@@ -20,7 +20,7 @@ function About() {
               His research focuses on developing interpretable machine learning methods for biomedical informatics, transforming complex data into actionable insights for scientific and clinical decision-making.
             </p>
             <p>
-            As an Engineer,James combines his experience in professional software development, AI/ML research, and self-directed projects to design, plan, and deliver end-to-end solutions, or contribute effectively at any stage of technical execution.
+            As an Engineer, James combines his experience in professional software development, AI/ML research, and self-directed projects to design, plan, and deliver end-to-end solutions, or contribute effectively at any stage of technical execution.
             </p>
             <p>
             He values versatility and enjoys contributing across disciplines. James welcomes collaborations on industry or applied projects and is open to graduate research opportunities in AI/ML and biomedical informatics.
