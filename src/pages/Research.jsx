@@ -6,10 +6,14 @@ function Research() {
       <div className="page-container">
         <div className="page-content">
           <section className="research-section">
-            <h2>Overview</h2>
-            <p className="research-overview">
-              James McCormack applies machine learning and AI to biomedical and healthcare problems, with a focus on probabilistic modeling, data mining, and interpretability. His work combines advanced computational methods with practical applications, aiming to produce explainable, reliable, and actionable results for clinical and scientific decision-making.
-            </p>
+            <h2>Research Interests</h2>
+            <ul>
+              <li>Probabilistic Modeling</li>
+              <li>Data Mining & Feature Analysis</li>
+              <li>Biomedical Informatics</li>
+              <li>Interpretable Machine Learning (XAI)</li>
+              <li>Clinical Natural Language Processing (NLP)</li>
+            </ul>
           </section>
 
           <section className="research-section">
