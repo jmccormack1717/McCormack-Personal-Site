@@ -48,7 +48,7 @@ function Education() {
             <p className="reading-subheading">Representative resources:</p>
             <div className="readings-list">
               <div className="reading-item">
-                <p className="reading-title">Udemy Data Science Course</p>
+                <p className="reading-title">Online Data Science Course</p>
               </div>
               <div className="reading-item">
                 <p className="reading-title"><em>All of Statistics</em> — Larry Wasserman</p>
