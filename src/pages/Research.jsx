@@ -7,7 +7,7 @@ function Research() {
         <div className="page-content">
           <section className="research-section">
             <h2>Research Interests</h2>
-            <ul>
+            <ul className="coursework-list">
               <li>Probabilistic Modeling</li>
               <li>Data Mining & Feature Analysis</li>
               <li>Biomedical Informatics</li>
