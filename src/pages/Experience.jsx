@@ -21,12 +21,12 @@ function Experience() {
                   Key responsibilities and accomplishments include:
                 </p>
                 <ul className="experience-bullets">
-                  <li>Designed and implemented user-facing components using React and TypeScript, ensuring responsiveness and visual appeal.</li>
-                  <li>Developed backend features, maintained databases, and performed complex queries using Python and Neo4j.</li>
-                  <li>Supported user authentication flows and integrated APIs for secure and seamless functionality.</li>
+                  <li>Designing and implementing user-facing components using React and TypeScript, ensuring responsiveness and visual appeal.</li>
+                  <li>Developing backend features, maintaining databases, and performing complex queries using Python and Neo4j.</li>
+                  <li>Supporting user authentication flows for secure and seamless functionality.</li>
                   <li>Participated in the company rebranding process, contributing to the UI/UX overhaul and maintaining consistency across products.</li>
-                  <li>Maintained and improved existing software by identifying and fixing bugs, optimizing performance, and enhancing reliability.</li>
-                  <li>Collaborated across design and engineering teams to translate product vision into practical, high-quality solutions.</li>
+                  <li>Maintaining and improving existing software by identifying and fixing bugs, optimizing performance, and enhancing reliability.</li>
+                  <li>Collaborating across design and engineering teams to translate product vision into practical, high-quality solutions.</li>
                 </ul>
               </div>
             </div>
