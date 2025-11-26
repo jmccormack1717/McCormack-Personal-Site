@@ -57,7 +57,7 @@ function Experience() {
                   <li>Built with FastAPI, Python, SQLAlchemy, and Pandas on the backend, with per-dataset SQLite storage.</li>
                   <li>React, TypeScript, Tailwind CSS, and Recharts on the frontend for interactive visualizations.</li>
                   <li>Playbook-based analysis engine where the LLM selects analysis strategies while deterministic Python executes the data logic.</li>
-                  <li>Deployed on Render with an optimized request flow to keep interactions snappy on top of LLM latency.</li>
+                  <li>Designed to robustly handle arbitrary CSVs, tested on datasets with over 100k rows while keeping the analysis responsive.</li>
                 </ul>
               </div>
             </div>
