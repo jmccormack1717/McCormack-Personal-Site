@@ -50,10 +50,14 @@ function Experience() {
                   Full-stack web app that lets users upload CSVs and ask questions in plain English, returning
                   tailored charts and narrative insights powered by an LLM.
                 </p>
+                <p className="project-description">
+                  Key features and technologies include:
+                </p>
                 <ul className="project-bullets">
                   <li>Built with FastAPI, Python, SQLAlchemy, and Pandas on the backend, with per-dataset SQLite storage.</li>
                   <li>React, TypeScript, Tailwind CSS, and Recharts on the frontend for interactive visualizations.</li>
                   <li>Playbook-based analysis engine where the LLM selects analysis strategies while deterministic Python executes the data logic.</li>
+                  <li>Deployed on Render with an optimized request flow to keep interactions snappy on top of LLM latency.</li>
                 </ul>
               </div>
             </div>
