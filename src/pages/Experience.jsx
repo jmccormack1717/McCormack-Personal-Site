@@ -31,6 +31,33 @@ function Experience() {
               </div>
             </div>
           </section>
+          <section className="projects-section">
+            <h2>Projects</h2>
+            <div className="project-list">
+              <div className="project-item">
+                <div className="project-header">
+                  <h3>SpeakInsights – Natural-Language CSV Analytics</h3>
+                  <a
+                    href="https://speakinsights-prototype.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    Live Demo
+                  </a>
+                </div>
+                <p className="project-description">
+                  Full-stack web app that lets users upload CSVs and ask questions in plain English, returning
+                  tailored charts and narrative insights powered by an LLM.
+                </p>
+                <ul className="project-bullets">
+                  <li>Built with FastAPI, Python, SQLAlchemy, and Pandas on the backend, with per-dataset SQLite storage.</li>
+                  <li>React, TypeScript, Tailwind CSS, and Recharts on the frontend for interactive visualizations.</li>
+                  <li>Playbook-based analysis engine where the LLM selects analysis strategies while deterministic Python executes the data logic.</li>
+                </ul>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </div>
