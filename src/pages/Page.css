@@ -634,6 +634,30 @@
   font-size: 1.2rem;
 }
 
+/* Project bullets match experience bullets styling */
+.project-bullets {
+  margin: 1.25rem 0;
+  padding-left: 1.75rem;
+  color: var(--text-light);
+  list-style: none;
+}
+
+.project-bullets li {
+  margin-bottom: 0.875rem;
+  line-height: 1.75;
+  font-size: 1.05rem;
+  position: relative;
+}
+
+.project-bullets li::before {
+  content: '•';
+  position: absolute;
+  left: -1.25rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 .coming-soon {
   color: var(--text-light);
   font-style: italic;
