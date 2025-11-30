@@ -15,18 +15,18 @@ function Experience() {
                 </div>
                 <div className="experience-org">Scheme</div>
                 <p className="experience-description">
-                  At Scheme, James works across the full stack to build AI-driven product features, collaborating directly with the CEO and design team to ship high-quality, end-to-end functionality.
+                  At Scheme, James contributes across the stack to build AI-driven product features, working directly with the CEO and design team to deliver high-impact, end-to-end functionality.
                 </p>
                 <p className="experience-description">
                   Key Responsibilities & Achievements
                 </p>
                 <ul className="experience-bullets">
-                  <li>Developing end-to-end product features that enhance user experience and platform reliability.</li>
-                  <li>Designing and implementing clean, responsive, and visually consistent UIs using React and TypeScript.</li>
-                  <li>Building backend features in Python, maintaining databases, and writing complex data queries with Neo4j.</li>
-                  <li>Implementing and improving user authentication and account management workflows.</li>
-                  <li>Maintaining and optimizing existing software to improve performance, stability, and user experience.</li>
-                  <li>Translating product requirements into scalable technical solutions in close collaboration with design and leadership.</li>
+                  <li>Developing full-stack features that improve platform reliability and user experience.</li>
+                  <li>Building responsive, visually consistent UIs with React and TypeScript.</li>
+                  <li>Implementing backend logic in Python, managing databases, and writing complex Neo4j queries.</li>
+                  <li>Improving user authentication and account management workflows.</li>
+                  <li>Optimizing existing systems for performance, stability, and scalability.</li>
+                  <li>Converting product requirements into practical, high-quality engineering solutions.</li>
                 </ul>
               </div>
               <div className="experience-item">
@@ -36,17 +36,17 @@ function Experience() {
                 </div>
                 <div className="experience-org">Scheme</div>
                 <p className="experience-description">
-                  James began at Scheme owning core frontend responsibilities, delivering high-quality UI work and contributing significantly to a major product rebrand before expanding into a full-stack role.
+                  James started at Scheme owning core frontend responsibilities and contributed significantly to a company-wide product rebrand before expanding into a full-stack role.
                 </p>
                 <p className="experience-description">
                   Key Responsibilities & Achievements
                 </p>
                 <ul className="experience-bullets">
-                  <li>Implemented a fully responsive, visually consistent UI in partnership with the design team.</li>
-                  <li>Led major pieces of the company's rebrand, updating layouts, components, and visual elements across the platform.</li>
-                  <li>Built reusable, maintainable React components to improve frontend scalability.</li>
-                  <li>Integrated frontend workflows with backend APIs to deliver seamless, user-facing functionality.</li>
-                  <li>Established the frontend foundations he continues to maintain and expand as part of his full-stack role.</li>
+                  <li>Delivered a fully responsive, consistent UI in collaboration with design.</li>
+                  <li>Led major portions of the company rebrand, updating layouts and visual components.</li>
+                  <li>Built reusable React components to improve frontend structure and maintainability.</li>
+                  <li>Integrated frontend features with backend APIs for seamless user experiences.</li>
+                  <li>Established frontend foundations he continues to maintain and expand as a full-stack engineer.</li>
                 </ul>
               </div>
             </div>
@@ -56,7 +56,7 @@ function Experience() {
             <div className="project-list">
               <div className="project-item">
                 <div className="project-header">
-                  <h3>SpeakINsights – Natural-Language CSV Analytics</h3>
+                  <h3>SpeakInsights — Natural-Language CSV Analytics</h3>
                   <a
                     href="https://speakinsights-prototype.onrender.com/"
                     target="_blank"
@@ -67,23 +67,22 @@ function Experience() {
                   </a>
                 </div>
                 <p className="project-description">
-                  Full-stack web app that lets users upload CSVs and ask questions in plain English, returning
-                  tailored charts and narrative insights powered by an LLM.
+                  A full-stack analytics platform that lets users upload CSVs and ask questions in plain English, generating charts and narrative insights powered by an LLM.
                 </p>
                 <p className="project-description">
-                  Key features and technologies include:
+                  Key Features
                 </p>
                 <ul className="project-bullets">
-                  <li>Built full-stack data analytics platform enabling natural language queries on CSV datasets using OpenAI GPT-4</li>
-                  <li>Designed playbook-based analysis system with 8+ analysis types, avoiding SQL injection by using deterministic Python code</li>
-                  <li>Developed React + TypeScript frontend with dynamic visualization rendering and real-time query processing</li>
-                  <li>Implemented FastAPI backend with JWT authentication, async operations, and comprehensive error handling</li>
-                  <li>Deployed production application with CI/CD pipeline, automated testing, and multi-tenant data isolation</li>
+                  <li>Built natural-language analytics using OpenAI GPT-4 with deterministic Python pipelines (no SQL injection risk).</li>
+                  <li>Designed a playbook-based analysis system with 8+ analysis types (stats, correlations, trends, comparisons, etc.).</li>
+                  <li>Developed interactive React + TypeScript frontend with dynamic chart rendering.</li>
+                  <li>Built FastAPI backend with JWT auth, async processing, and structured error handling.</li>
+                  <li>Deployed a production-ready app with CI/CD, automated tests, and multi-tenant data isolation.</li>
                 </ul>
               </div>
               <div className="project-item">
                 <div className="project-header">
-                  <h3>SecuraFlow</h3>
+                  <h3>SecuraFlow — ML-Powered Anomaly Detection System</h3>
                   <a
                     href="https://securaflow-frontend.onrender.com/"
                     target="_blank"
@@ -94,17 +93,17 @@ function Experience() {
                   </a>
                 </div>
                 <p className="project-description">
-                  Full-stack production system with ML-powered anomaly detection for real-time monitoring and security analytics.
+                  A full-stack production system providing real-time monitoring, security analytics, and ML-based anomaly detection.
                 </p>
                 <p className="project-description">
-                  Key features and technologies include:
+                  Key Features
                 </p>
                 <ul className="project-bullets">
-                  <li>Built full-stack production system (FastAPI + React + TypeScript) with ML-powered anomaly detection using Isolation Forest</li>
-                  <li>Implemented real-time monitoring dashboard with live visualizations, model performance tracking, and system health metrics</li>
-                  <li>Deployed with CI/CD pipeline (GitHub Actions), Docker containerization, and automated test-gated deployments to Render</li>
-                  <li>Integrated production features: JWT authentication, rate limiting, structured logging, PostgreSQL database, and comprehensive error handling</li>
-                  <li>Designed end-to-end ML pipeline from feature engineering to real-time inference with performance evaluation metrics</li>
+                  <li>Built full-stack platform (FastAPI + React + TypeScript) with anomaly detection using Isolation Forest.</li>
+                  <li>Implemented real-time dashboards with live charts, system metrics, and model performance tracking.</li>
+                  <li>Deployed using Docker + GitHub Actions with test-gated, automated CI/CD to Render.</li>
+                  <li>Added production features: JWT auth, rate limiting, structured logging, PostgreSQL, and robust error handling.</li>
+                  <li>Designed complete ML pipeline from feature engineering to real-time inference and evaluation metrics.</li>
                 </ul>
               </div>
             </div>
