@@ -84,6 +84,14 @@ function Experience() {
               <div className="project-item">
                 <div className="project-header">
                   <h3>SecuraFlow</h3>
+                  <a
+                    href="https://securaflow-frontend.onrender.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="project-link"
+                  >
+                    Live Demo
+                  </a>
                 </div>
                 <p className="project-description">
                   Full-stack production system with ML-powered anomaly detection for real-time monitoring and security analytics.
