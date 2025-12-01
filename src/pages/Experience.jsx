@@ -75,7 +75,7 @@ function Experience() {
                 <ul className="project-bullets">
                   <li>Built natural-language analytics using OpenAI GPT-4 with deterministic Python pipelines (no SQL injection risk).</li>
                   <li>Designed a playbook-based analysis system with 8+ analysis types (stats, correlations, trends, comparisons, etc.).</li>
-                  <li>Developed interactive React + TypeScript frontend with dynamic chart rendering.</li>
+                  <li>Developed interactive React and TypeScript frontend with dynamic chart rendering.</li>
                   <li>Built FastAPI backend with JWT auth, async processing, and structured error handling.</li>
                   <li>Deployed a production-ready app with CI/CD, automated tests, and multi-tenant data isolation.</li>
                 </ul>
@@ -99,9 +99,9 @@ function Experience() {
                   Key Features
                 </p>
                 <ul className="project-bullets">
-                  <li>Built full-stack platform (FastAPI + React + TypeScript) with anomaly detection using Isolation Forest.</li>
+                  <li>Built full-stack platform (FastAPI, React and TypeScript) with anomaly detection using Isolation Forest.</li>
                   <li>Implemented real-time dashboards with live charts, system metrics, and model performance tracking.</li>
-                  <li>Deployed using Docker + GitHub Actions with test-gated, automated CI/CD to Render.</li>
+                  <li>Deployed using Docker and GitHub Actions with test-gated, automated CI/CD to Render.</li>
                   <li>Added production features: JWT auth, rate limiting, structured logging, PostgreSQL, and robust error handling.</li>
                   <li>Designed complete ML pipeline from feature engineering to real-time inference and evaluation metrics.</li>
                 </ul>
