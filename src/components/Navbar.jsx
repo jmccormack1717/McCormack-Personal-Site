@@ -51,7 +51,7 @@ function Navbar() {
               className={`navbar-link ${isActive('/experience') ? 'active' : ''}`}
               onClick={closeMenu}
             >
-              Experience
+              Engineering
             </Link>
           </li>
           <li>
