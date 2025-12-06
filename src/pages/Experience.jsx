@@ -10,7 +10,7 @@ function Experience() {
             <div className="experience-list">
               <div className="experience-item">
                 <div className="experience-header">
-                  <h3>Software Engineer — Full Stack</h3>
+                  <h3>Full Stack Engineer</h3>
                   <span className="experience-date">Nov 2025 – Present</span>
                 </div>
                 <div className="experience-org">Scheme</div>
