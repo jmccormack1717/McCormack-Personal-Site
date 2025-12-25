@@ -14,7 +14,7 @@ function About() {
           </div>
           <div className="about-text">
             <p>
-              James McCormack is a Software Engineer and AI/ML Researcher studying Mathematics and Computer Science at the University of Wisconsin–Eau Claire.
+              James McCormack is an engineer and researcher studying Mathematics and Computer Science at the University of Wisconsin–Eau Claire.
             </p>
             <p>
               As an engineer, he builds full-stack applications in fast-paced startup environments, delivering end-to-end features using Python, React, and modern backend tools.
@@ -23,7 +23,7 @@ function About() {
               Separately, his research focuses on applied machine learning and data science, exploring methods to turn complex data into actionable insights.
             </p>
             <p>
-              With experience across both professional engineering and academic research, James has a broad skill set and enjoys contributing to projects in AI, ML, data science, and software development.
+            With experience across both engineering and research, James brings a versatile skill set and is open to collaborations in academic research or industry projects.
             </p>
           </div>
           
